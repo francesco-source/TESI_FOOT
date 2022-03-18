@@ -1,2 +1,2 @@
 # TESI_FOOT
-Analisi dati esperimento FOOT dell' INFN.
+Esperimento FOOT dell'INFN. Analisi dati effettuata tramite l'utilizzo di C++ e ROOT Cern
