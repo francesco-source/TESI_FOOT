@@ -47,7 +47,7 @@ TOut3->SetBranchAddress("TWDe1Point", &TWDe1Point,&b_TWDe1Point);
       b_TWDe1Point->GetEntry(tentry);
       b_TWChargePoint->GetEntry(tentry);
       for(UInt_t j=0;j<TWDe1Point->size();++j){
-        if(TWDe1Point->at(j)==1){hTWLostEnergy[0]->Fill(TWDe1Point->at(j));}
+        if(TWChargePoint->at(j)==1){hTWLostEnergy[0]->Fill(TWDe1Point->at(j));}
       else if(TWChargePoint->at(j)==2){hTWLostEnergy[1]->Fill(TWDe1Point->at(j));}
       else if(TWChargePoint->at(j)==3){hTWLostEnergy[2]->Fill(TWDe1Point->at(j));} 
       else if(TWChargePoint->at(j)==4){hTWLostEnergy[3]->Fill(TWDe1Point->at(j));}
